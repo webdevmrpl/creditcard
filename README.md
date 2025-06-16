@@ -6,13 +6,6 @@ Projekt wykorzystuje dataset **Credit Card Fraud Detection** dostępny na Kaggle
 
 Dataset zawiera transakcje kartami kredytowymi dokonane przez europejskich posiadaczy kart w ciągu dwóch dni we wrześniu 2013 roku. Ze względów poufności, większość cech została przekształcona za pomocą analizy głównych składowych (PCA).
 
-### Charakterystyka danych:
-- **284,807 transakcji** z informacjami o kartach kredytowych
-- **30 cech** (V1-V28 to cechy po transformacji PCA, Time, Amount, Class)
-- **Klasy niezbalansowane**: 99.83% prawidłowych transakcji (492 oszustwa z 284,807 transakcji)
-- **Cechy numeryczne**: wszystkie wartości wejściowe są numeryczne
-- **Brak wartości brakujących**
-
 
 ## Opis Projektu
 
