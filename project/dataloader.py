@@ -95,7 +95,7 @@ class DataLoader:
         not_frauds = data.query(f"{target_col} == 0")
 
         balanced_not_frauds = not_frauds.sample(
-            len(frauds) * 10, random_state=self.random_state
+            len(frauds) * 2, random_state=self.random_state
         )
 
         balanced_df = pd.concat([frauds, balanced_not_frauds])

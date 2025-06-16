@@ -1,2 +1,3 @@
 venv/
 project/creditcard.csv
+**/__pycache__/
